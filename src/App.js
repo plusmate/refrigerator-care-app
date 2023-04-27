@@ -1,5 +1,11 @@
+import MainComponents from "./Components/MainComponents";
+
 function App() {
-  return <div>Branch ½ÇÇè</div>;
+  return (
+    <div>
+      <MainComponents />
+    </div>
+  );
 }
 
 export default App;
