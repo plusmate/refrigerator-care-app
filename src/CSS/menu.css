@@ -8,7 +8,7 @@ a{text-decoration:none;font-size:14px}
 }
 
 .menu > li {
-  width: 20%; /*20*5=100%*/
+  width: 33.33%; /*20*5=100%*/
   float: left;
   text-align: center;
   line-height: 40px;
@@ -21,7 +21,7 @@ a{text-decoration:none;font-size:14px}
 
 .submenu > li {
   line-height: 50px;
-  background-color: #94a9ff;
+  background-color: #9faee7;
 }
 
 .submenu {
@@ -35,6 +35,6 @@ a{text-decoration:none;font-size:14px}
 }
 
 .menu > li:hover .submenu {
-  height: 250px; /*서브메뉴 li한개의 높이 50*5*/
+  height: 100%;
   transition-duration: 1s
 }

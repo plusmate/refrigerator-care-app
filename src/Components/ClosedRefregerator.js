@@ -1,3 +1,4 @@
+import Menu from "./Menu";
 import "../CSS/refregerator.css";
 
 function ClosedRefregerator(props) {

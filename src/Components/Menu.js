@@ -5,104 +5,32 @@ function Menu() {
   return (
     <ul class="menu">
       <li>
-        <Link to="/">Login</Link>
+        <Link to="/mypage">마이페이지</Link>
         <ul class="submenu">
           <li>
-            <a href="#">submenu01</a>
+            <Link to="#">내정보수정</Link>
           </li>
           <li>
-            <a href="#">submenu02</a>
+            <Link to="#">냉장고 정보 변경</Link>
           </li>
           <li>
-            <a href="#">submenu03</a>
-          </li>
-          <li>
-            <a href="#">submenu04</a>
-          </li>
-          <li>
-            <a href="#">submenu05</a>
+            <Link to="#">기기 변경</Link>
           </li>
         </ul>
       </li>
       <li>
-        <a href="#">MENU2</a>
+        <Link to="/info">INFO</Link>
         <ul class="submenu">
           <li>
-            <a href="#">submenu01</a>
+            <Link to="#">Tutorial</Link>
           </li>
           <li>
-            <a href="#">submenu02</a>
-          </li>
-          <li>
-            <a href="#">submenu03</a>
-          </li>
-          <li>
-            <a href="#">submenu04</a>
-          </li>
-          <li>
-            <a href="#">submenu05</a>
+            <Link to="#">찾아오는길</Link>
           </li>
         </ul>
       </li>
       <li>
-        <a href="#">MENU3</a>
-        <ul class="submenu">
-          <li>
-            <a href="#">submenu01</a>
-          </li>
-          <li>
-            <a href="#">submenu02</a>
-          </li>
-          <li>
-            <a href="#">submenu03</a>
-          </li>
-          <li>
-            <a href="#">submenu04</a>
-          </li>
-          <li>
-            <a href="#">submenu05</a>
-          </li>
-        </ul>
-      </li>
-      <li>
-        <a href="#">MENU4</a>
-        <ul class="submenu">
-          <li>
-            <a href="#">submenu01</a>
-          </li>
-          <li>
-            <a href="#">submenu02</a>
-          </li>
-          <li>
-            <a href="#">submenu03</a>
-          </li>
-          <li>
-            <a href="#">submenu04</a>
-          </li>
-          <li>
-            <a href="#">submenu05</a>
-          </li>
-        </ul>
-      </li>
-      <li>
-        <a href="#">MENU5</a>
-        <ul class="submenu">
-          <li>
-            <a href="#">submenu01</a>
-          </li>
-          <li>
-            <a href="#">submenu02</a>
-          </li>
-          <li>
-            <a href="#">submenu03</a>
-          </li>
-          <li>
-            <a href="#">submenu04</a>
-          </li>
-          <li>
-            <a href="#">submenu05</a>
-          </li>
-        </ul>
+        <Link to="/">로그아웃</Link>
       </li>
     </ul>
   );
