@@ -3,10 +3,10 @@ import "../CSS/menu.css";
 
 function Menu() {
   return (
-    <ul class="menu">
+    <ul className="menu">
       <li>
         <Link to="/mypage">마이페이지</Link>
-        <ul class="submenu">
+        <ul className="submenu">
           <li>
             <Link to="#">내정보수정</Link>
           </li>
@@ -20,7 +20,7 @@ function Menu() {
       </li>
       <li>
         <Link to="/info">INFO</Link>
-        <ul class="submenu">
+        <ul className="submenu">
           <li>
             <Link to="#">Tutorial</Link>
           </li>
